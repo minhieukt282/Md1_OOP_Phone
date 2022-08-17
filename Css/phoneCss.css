@@ -1,0 +1,32 @@
+body {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.top {
+
+    height: 50px;
+}
+
+textarea {
+    width: 295px;
+    height: 50px;
+}
+
+.botton {
+    margin-top: 30px;
+    width: 20px;
+    height: 20;
+    margin-left: 130px;
+}
+
+.button {
+    width: 50px;
+    height: 30px;
+    border-radius: 20%;
+    text-align: center;
+    background: sandybrown;
+
+}
+

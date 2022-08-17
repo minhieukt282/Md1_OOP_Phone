@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Css/phoneCss.css">
+
+
+</head>
+<body>
+<div class="top">
+    <div style="float: left"><p id="time"></p></div>
+    <div style="float: right"><p id="battery"></p></p></div>
+</div>
+<div>
+    <textarea id="infoMess"></textarea>
+</div>
+<div>
+    <button onclick="sentMess()">Sent Mess</button>
+    <button onclick="readMess()">Read Mess</button>
+    <button onclick="chargeBattery()">Charge Battery</button>
+    <p id="note">...............</p>
+</div>
+<canvas id="myCanvas" width="300" height="300"></canvas>
+<div class="botton">
+    <input class="button" type="button" value="On" id="onoff" onclick="onOffScreen()">
+</div>
+
+
+<script src="Js/phoneJs.js"></script>
+</body>
+</html>
